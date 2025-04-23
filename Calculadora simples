@@ -1,0 +1,20 @@
+x = int(input("Digite um numero: "))
+
+y = int(input("Digite outro numero: "))
+
+opera = input('Digite a operação que será usada (+,-,*,/): ')
+''' o if, elif e else tem que estar identados corretamente '''
+if opera == ('+'):
+    print(f"\nO resultado é: {x + y}")
+    
+elif opera == ('-'):
+    print(f"\nO resultado é: {x - y}")
+        
+elif opera == ('*'):
+    print(f"\nO resultado é: {x * y}")
+    
+elif opera == ('/'):
+    print(f"\nO resultado é: {x / y}")
+    
+else:
+    print("\nReinicie e escolha a operação certa...")
